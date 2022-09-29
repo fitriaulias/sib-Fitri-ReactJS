@@ -1,0 +1,47 @@
+Nama: Fitri Aulia S.
+Kode Peserta: RCTN-005-024
+
+
+Front-end Architecture Timeline
+- 2013 Flux muncul
+
+Bagaimana menyiapkan arsitektur untuk aplikasi kita?
+
+Flux Architecture Flavors
+Misal: punya library terus dipasang, nanti library tersebut fungsinya menghubungkan alur/data, jadi kalo mau login nanti ngisi data, itu nanti isinya kemana? disimpan kemana? logicnya gimana?
+Redux sama kaya flux tapi hanya dilingkungannya saja.
+
+Kapan sih butuh redux itu?
+1. Jika ada complex data, kita butuh membuat flow
+2. Many actions. Bebas tergantung kebutuhan
+3. Same data used in multiple places
+
+Kalau pake Flux, data akan bisa terprediksi, nyimpen data dimana, alur flownya dimana.
+
+Principles of Redux:
+1. Single source of truth: 
+2. Single is read only: hanya bisa membaca object saja
+3. Changes are made with pure functions
+
+4. One immutable store: kita bisa buat aplikasi pas ada perubahan bisa dilihat diview, tapi harus ada perubahan
+5. actions trigger changes: trigger yang ngeset
+6. Reducer update the state
+Reducer: fungsi JS biasa yang harus dibuat. parameternya current state dann action. 
+
+Bikin action => klik tombol => nanti nyimpen mau klik nambah atau kurang => terus si reducer ngambil state di store => terus balikin nilai baru di reducer ke store => terus diview
+
+Yang dibutuhkan untuk bermain redux:
+-redux
+-initial state. bisa dalam bentuk data apapun, tapi seringnya object, supaya data rapi, misal biodata, nanti didalamnya akan didaftarkan state yang dibutuhkan
+-reducer. dia ngebaca dulu initial state terus dibuat default, baru melakukan action yang kita buat
+-createStore
+-subscribe: ngecek ada ga triggernya, kalo ada statenya diupdate
+-dispatch: nerima resultnya berupa object yang isinya type dan payload
+
+
+ada 2 tahapan:
+1. install react
+2. reactjs toolkit
+
+Provider: import react reduxnya
+
