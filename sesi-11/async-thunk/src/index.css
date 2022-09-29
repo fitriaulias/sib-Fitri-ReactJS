@@ -1,0 +1,84 @@
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Redux logger & async thunk */
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  
+}
+
+th {
+  padding: 5px;
+  background-color: #3C5186;
+  color: #FFF5DE;
+}
+
+td {
+  padding: 5px;
+  border: solid 1px black;
+}
+
+.container {
+  text-align: center;
+}
+
+
+/* Login with react */
+
+/* form[name='loginForm'] {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+label {
+  min-width: 180px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+input[type='email'], input[type='password'] {
+  box-sizing: border-box;
+  height: 40px;
+  padding:3px;
+  flex-grow: 1;
+  font-size: 25px;
+}
+
+input[type='submit'] {
+  align-self: flex-end;
+  width: 100px;
+  height: 50px;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+  font-size: 20px;
+  background: white;
+}
+
+.message {
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: right;
+} */

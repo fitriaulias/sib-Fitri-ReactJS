@@ -1,0 +1,31 @@
+Fitri Aulia S.
+RCTN-005-024
+
+Redux itu kaya controller buat monitoring, buat state tapi management.
+
+Di dalam redux ada package yang ditawarkan. Redux itu tools untuk bantu kita memanagement state. Di redux ada komunitas yang luas, ada perusahaan yang ngembangin juga.
+
+Cara pemakaian, install dulu.
+
+DI dalam redux, ada type, buat ngasih variabel, contoh pas kemarin bikin increment decrement, yang ada di store.
+
+Action diklik pake dispatch: membantu kegiatan.
+Terus dispatch ngerubah data, nanti balik lagi ke store, yang melakukan itu butuh provider. Jadi si reducer membutuhkan variable yang dibuat public <Provider store={store}>
+
+Redux nyimpan state, dikelola dan disimpen di store. SI reducer itu ngontrol dan mengolah, jika ada perubahan dilakukan di dispatch.
+
+Final Project:
+1. news api > react
+2. shop > react
+3. hotel reservation > react native
+4. movie > react
+
+durasi waktu: belum tau (masih nunggu info)
+boleh dicicil mulai dari esok hari 28 september 2022
+
+note final project:
+1. jangan plagiat
+2. improve (jika dibantu teman)
+- interface
+- management state
+- login
