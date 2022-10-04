@@ -1,0 +1,97 @@
+Fitri Aulia S.
+RCTN-005-024
+
+Server-Side Rendering Concept (SSR)
+
+Di Next.js nanti create aplikasi yang nanti ada react, react dom, dan nextnya. SSR itu apa?
+
+Client request buat akses URL -> setelah akses, nanti server merespon ke dalam browser -> browser kita mengunduh file, img, dll -> nanti react ngakses apk dalam bentuk browser -> jadi nanti nampil lalu kita interaksi.
+
+Keuntungan dan kekurangan SSR
+
+SSR ngebantu kita buat aplikasi yang ga banyak mengelola database, misal kaya cuma nampilin profile cv kita. Kalo masih simple, bisa pake SSR, pertama karena:
+1. SEO. Nanti ada crawling content, nanti akan melakukan indexing, jadi bakal ngebantu SE crawling website kita. Contoh yang di crawling itu keywordnya, content, artikel. Hanya di landing pagenya saja.
+2. Efisien dan cepat. Dengan SSR bisa meningkatkan performance kita.
+
+Kekurangan:
+1. Kalo mengelola data besar akan memakan waktu lama. Misal data statistik/agrerat, biasanya dibantu web service untuk mengelola datanya. Intinya tergantung kondisinya.
+2. Potensi masalah dengan kode pihak ketiga. Misal saat instalasi package, apakah pihak ketiga ini menguntungkan atau tidak.
+
+Kapan menggunakan SSR? Kalo emang bener-bener butuh SEO.
+
+Teknik Final Project
+
+Kelompok 5:
+I Putu Gede Maysa Putra
+Dwi Samsiarto
+Fitri Aulia S.
+
+1. Ada 4 final project
+> Final project dikerjakan berdasrkan topik/tema yang telah ditentukan dalam materi
+2. Final project dikerjakan berkelompok:
+> Anggota kelomopk 2-3 orang per kelompok
+> Penentuan kelompok diserahkan kepada instruktur baik itu akan ditentukan langsung oleh atau dibebaskan.
+
+Deadline:
+1. Final project 1: 28 Oktober 2022. Punya jatah 1 bimbingan
+2. Final project 2: 18 November 2022. Punya jatah 1 bimbingan
+3. Final project 3: 2 Desember 2022. Punya jatah 1 bimbingan
+4. Final project 4: 16 Desember 2022. Punya jatah 1 bimbingan
+
+Nanti buat jadwal perkelompok, siapin waktu, janjian bikin kelas, dalam durasi 1 orang, ini buat mentoring.
+
+Progress disampaikan per 3 hari.
+
+note: paling minim infokan 3 hari
+
+jika mentoring malam hari > pagi/siang infokan ke mentor dan reminder ke mentor di sore hari.
+persiapkan bahan untuk sesi mentoring
+
+Final project
+1. proses minim infokan 3 hari
+1 kelompok ada 3 peserta > 30 menit * 3 = 90 menit
+> bahan bimbingan
+- login
+- logic
+- styling layout
+ > atoms
+- dasar database
+- crud (create, read, update, delete)
+  > function
+  > trigger
+  > procedure
+ > sql > logic
+
+misal tabel users:
+---
+no nama  daerah
+1. arif lampung
+2. rendi jawa
+3. dinda palembang
+select daerah from users where nama=dinda
+
+Kalo mau improve bisa pake figma/whimsical
+
+Final project:
+- panduan aplikasi
+  - cara penggunaan (word): screenshot, instalasi, dll
+  - keterangan library
+  - referensi/sumber
+- apps (tambah page about/kelompok) > ada menu progress aplikasi
+- menu progress aplikasi
+  misal:
+   > Taofik A. - RCTN-KS05-006
+	> biodata (nama, no peserta, kelas, final project kelompok 1 - news api)
+	> mengerjakan progress 1
+	> mengerjakan progress 2
+   > Malvino A. - RCTN-KS05-007
+	> biodata (nama, no peserta, kelas, final project kelompok 1 - news api)
+	> mengerjakan progress 1
+	> mengerjakan progress 2
+- link hosting online/heroku
+- push ke github rctn05_fp_news_api_kel5 > infokan ke mentor > simpan link di class room/pengumpulan tugas final project
+
+Dilihatnya lebih ke progress, bukan output. 
+Saran waktu mentoring yang tepat: pas deket deadline/final.
+Penambahan nilai: ngebagusin di panduan aplikasi (detail)
+-sumber harus selalu disimpan, contoh gambar dll
