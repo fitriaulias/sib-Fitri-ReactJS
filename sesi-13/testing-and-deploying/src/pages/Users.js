@@ -14,16 +14,17 @@ const Users = () => {
 
   return (
    <div>
-    <div className="p-5 mb-4 bg-light rounded-3 border">
+    <div className="p-5 mb-4 bg-light rounded-3 border mt-4">
       <Link to="/"
         type="button" 
+        className="btn btn-success btn-lg"
         role="button">
           Back to Home
       </Link>
       <div className='container-fluid py-5'>
-      <table>
+      <table className='col-md 8 fs-4 table table-bordered'>
         <thead>
-          <tr>
+          <tr className='table-dark'>
             <th>ID</th>
             <th>Name</th>
             <th>Username</th>

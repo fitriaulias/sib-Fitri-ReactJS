@@ -1,0 +1,37 @@
+Fitri Aulia S.
+RCTN-KS-005-024
+
+Testing & Deploying React
+
+Testing and Debugging React
+
+Piramida testing
+^ Manual testing
+| end-toend testing
+| Integration testing
+| Unit testing
+
+JEST
+
+RTL (React Testing Library)
+
+Yang bisa ditest:
+1. Test render
+2. Test output
+3. Test props
+
+Deployment bakal digunakan buat final project, bisa pake Heroku dan netlify.
+
+Sesi-13
+create-react-app react-test
+cd react-test
+npm i bootstrap > yarn add bootstrap
+npm i react-router-dom > yarn add react-router-bootstrap
+
+use:
+npm run build > yarn build
+npm test > yarn test
+
+buat react native
+siapin emulator.
+pakai yang simple aja
