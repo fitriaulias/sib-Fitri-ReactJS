@@ -1,0 +1,52 @@
+Nama: Fitri Aulia S.
+Kode Peserta: RCTN-KS-005-024
+
+React Native
+
+Cara melakukan kompilasinya?
+
+JSX -> JS -> JSCore -> Java/Obj-C (target)
+
+Strukturnya dikit, asset dan app.js
+
+Tampilannya mirip react, hanya berbeda di styling dan penggunaan komponen, misal view text dll.
+
+Expo
+
+npm install -g expo-cli
+
+Nanti dijalanin di terminal
+
+Final project
+
+Dibuat sesimple mungkin, yang penting formatnya sama seperti di modul.
+
+Looping dibuat kotak-kotak, lalu di get, ada header, nav, footer, ditambahin about buat kelompoknya.
+Kalo mau custom boleh, tapi jangan lewat batas waktunya.
+
+Sesi mentoring sebelum tanggal 28, kalo bisa dimulai dari tanggal 17.
+
+Laporan wajib start minggu depan.
+
+
+
+Assets
+yang akan digunakan untuk icon. Biasanya dibuat subfolder lagi.
+
+running: npx expo start
+
+
+What is expo
+
+Expo go: cara pembuatan
+
+ngcreate apk, nanti ditaruh di github, generate apk
+
+PR
+
+Kirimin apknya
+
+
+
+
+
