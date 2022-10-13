@@ -1,0 +1,17 @@
+Sesi 16
+1. Preview project final project
+
+how to install navigation : 
+reference navigation : https://reactnative.dev/docs/navigation
+npm install @react-navigation/native @react-navigation/native-stack
+expo install react-native-screens react-native-safe-area-context
+
+Sesi 16:
+1. Presentasi final project yang udah dicicil
+Point:
+> List yang udah selesai
+> List yang belum selesai
+
+Presentasi:
+1. Nanti ada ketua kelompok
+2. Misal
