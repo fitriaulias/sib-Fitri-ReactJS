@@ -1,4 +1,4 @@
-import { View, Text, TextInput, Button } from "react-native"
+import { View, Text, TextInput, Button, StyleSheet } from "react-native"
 import { useState } from 'react';
 
 function TextScreen({ route }) {

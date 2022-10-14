@@ -1,4 +1,4 @@
-import { View, Text, TextInput, ScrollView } from "react-native"
+import { View, Text, ScrollView, StyleSheet } from "react-native"
 
 function ScrollViewScreen({ route }) {
     const MarginTop = () => <View styles={{ marginTop: 10}} />
@@ -51,9 +51,9 @@ const styles = StyleSheet.create({
     scroll: {
         backgroundColor: "dedede",
         paddingTop: 10,
-        paddingLeft: 18,
-        paddingRight: 18,
-        paddingBottom: 25,
+        paddingLeft: 10,
+        paddingRight: 10,
+        paddingBottom: 50,
         marginBottom: 50
     },
     box: {

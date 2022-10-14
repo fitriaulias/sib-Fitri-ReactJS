@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from "react-native"
+import { View, Text, FlatList, StyleSheet } from "react-native"
 
 function FlatListScreen({ route }) {
     const MarginTop = () => <View styles={{ marginTop: 10}} />
@@ -21,13 +21,11 @@ function FlatListScreen({ route }) {
         <View style={styles.content}>
             <FlatList
             data={posts}
-            renderItem={( item ) => {
-            <Text style={styles.item}>{item.title}</Text> }}
+            renderItem={({item}) => <Text style={styles.item}>{item.title}</Text>} />
 
-            
-            
         </View>
     </View>
+   
   )
 }
 
@@ -51,4 +49,4 @@ const styles = StyleSheet.create({
   });
   
 
-export default FlatListScreen;
+export default FlatListScreen

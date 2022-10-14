@@ -1,4 +1,4 @@
-import { View, Text, TextInput } from "react-native"
+import { View, Text, TextInput, StyleSheet, Image } from "react-native"
 
 function ProfileScreen({ route }) {
     const MarginTop = () => <View styles={{ marginTop: 10}} />
