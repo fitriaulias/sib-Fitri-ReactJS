@@ -5,7 +5,7 @@ function FlatListScreen({ route }) {
 
     let posts = []
 
-    for (let i = 0; 1 <= 10; i++) {
+    for (let i = 0; 1 <= 20; i++) {
         posts.push({
             title: `Title ${i}`,
         })
@@ -42,9 +42,12 @@ const styles = StyleSheet.create({
       margin: 10
     },
     item: {
+        backgroundColor: '#fefefe',
+        color: "#FFFFFF",
         padding: 10,
         fontSize: 20,
-        height: 50
+        height: 50,
+        width: 100
     }
   });
   
